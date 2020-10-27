@@ -1,4 +1,8 @@
 <?php
+/* 
+ * Author
+ * Ratno Firmansyah <asturof11@gmail.com>
+ */
 
 namespace App\Models;
 
