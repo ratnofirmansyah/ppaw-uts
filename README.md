@@ -29,6 +29,7 @@ DB_PASSWORD=YOUR_PASSWORD
 ```text
 composer install
 php artisan migrate
+php artisan storage:link
 ```
 - Untuk memulai menjalankan aplikasi jalankan perintah berikut
 ```text
