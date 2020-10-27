@@ -26,7 +26,7 @@
 		<tr>
 			<td>{{ ++$i }}</td>
 			<td>
-				<img src="https://sman93jkt.sch.id/wp-content/uploads/2018/01/765-default-avatar.png" style="max-height: 50px; max-width: 50px">
+				<img src="{{ asset('storage/'.$user->avatar) }}" style="max-height: 50px; max-width: 50px">
 			</td>
 			<td>{{ $user->name }}</td>
 			<td>{{ $user->email }}</td>
